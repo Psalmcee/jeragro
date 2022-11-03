@@ -6,7 +6,7 @@
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="mx-12 lg:mx-24 mt-8 px-auto">
+    <div class="mx-12 lg:mx-32 mt-8 px-auto">
         <!-- header -->
         <div class="flex justify-between w-full h-1/8 ">
             <div class="text-2xl text-black items-end font-bold capitalize lg:text-xl">
@@ -40,16 +40,16 @@
                 </div>
             </div>
             <!--Hero Images-->
-            <div class="mx-auto py-12 lg:w-4/6">
+            <div class="hidden lg:block mx-auto py-12 lg:px-24 lg:w-4/6">
                 <div class="lg:px-32  space-x-24  flex">
                     <div class="p-4">
-                        <img src="images/wheat.jpg" class="w-48 h-48 lg:w-76 lg:h-76 rounded-full"/>
+                        <img src="images/wheat.jpg" class="w-48 h-48 lg:w-64 lg:h-64 rounded-full"/>
                     </div>
                     <div class="p-12 ">
                         <img src="images/soil.jpg" class=" w-16 h-16 lg:w-20 lg:h-20 rounded-full"/>
                     </div>
                 </div>
-                <div class="flex justify-end lg:justify-center pr-40">
+                <div class="flex justify-end lg:justify-center pr-20 lg:pl-32">
                     <img src="images/farmer.jpg" class="w-32 h-32 rounded-full"/>
                 </div>
                 <div class="lg:px-12 space-x-24 flex">
@@ -59,6 +59,12 @@
                     <div class="pt-24 flex justify-center">
                         <img src="images/tractor.jpg" class="w-40 h-40 rounded-full"/>
                     </div>
+                </div>
+            </div>
+            <div class="lg:hidden my-12 pt-12 flex relative text-center">
+                    <img src="images/tractor.jpg" class="w-full h-80"/>
+                <div class="flex absolute my-40 justify-center items-center text-gray-800 font-bold font-serif text-6xl bg-transparent uppercase py-12 w-full">
+                    <p>jeragro</p>
                 </div>
             </div>
         </div>
